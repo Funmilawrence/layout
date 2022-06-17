@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 1440px;
+  font-size: 15px;
+  background-color: hsl(0, 0%, 95%);
+  font-family: [Big Shoulders Display](https://fonts.google.com/specimen/Big+Shoulders+Display);
+  font-weight: 400;
+}
+
+main {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+h2 {
+  color: hsl(0, 0%, 95%);
+  padding-bottom: 50px;
+  font-family: [Lexend Deca](https://fonts.google.com/specimen/Lexend+Deca);
+  font-weight: 700;
+}
+
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  padding-bottom: 80px;
+}
+
+img {
+  padding-bottom: 15px;
+}
+
+.sedandiv {
+  background-color: hsl(31, 77%, 52%);
+  padding: 30px;
+  border-right: 2px solid hsl(31, 77%, 52%);
+}
+
+.suvsdiv {
+  background-color: hsl(184, 100%, 22%);
+  padding: 30px;
+  border-right: 2px solid hsl(184, 100%, 22%);
+}
+
+.luxurydiv {
+  background-color: hsl(179, 100%, 13%);
+  padding: 30px;
+  border-right: 2px solid hsl(179, 100%, 13%);
+}
+
+.btn {
+  padding: 10px 25px;
+  background-color: hsl(0, 0%, 95%);
+  border: 0;
+  border-radius: 20px;
+  margin-bottom: 15px;
+}
+
+.btn1:active {
+  background-color: hsl(31, 77%, 52%);
+  border: 1px solid hsl(0, 0%, 95%);
+  color: hsl(0, 0%, 95%) !important;
+}
+
+.btn2:active {
+  background-color: hsl(184, 100%, 22%);
+  border: 1px solid hsl(0, 0%, 95%);
+  color: hsl(0, 0%, 95%) !important;
+}
+
+.btn3:active {
+  background-color: hsl(179, 100%, 13%);
+  border: 1px solid hsl(0, 0%, 95%);
+  color: hsl(0, 0%, 95%) !important;
+}
